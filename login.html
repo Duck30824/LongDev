@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/logoicon.JPG" type="image/x-icon">
+    <title>LONGSTORE</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+
+            <head>
+                <div class="head_logo">
+                    <div class="head_logo_row">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="" width="350" height="70" style="margin-left: 10px;">
+                        </a>
+
+                        <div class="search">
+                            <input type="text" id="TextSearch" placeholder="Tìm kiếm tại cửa hàng...">
+                            <button>TÌM KIẾM</button>
+                        </div>
+                        <div class="login_register">
+                            <a href="login.html">
+                                <p>ĐĂNG NHẬP</p>
+                            </a>
+                            <a href="register.html">
+                                <p>ĐĂNG KÝ</p>
+                            </a>
+                        </div>
+                        <div class="shopcart">
+                            <a href=""><img src="img/shopp.png" alt="" height="40" width="40"
+                                    style="margin-top: 13px; margin-right: 10px;"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">TRANG CHỦ</a></li>
+                        <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+
+                        <li style="width:130px;"><a href="Nam.html"
+                                style="padding-left:50px; padding-right:55px ; ">NAM</a>
+                            <ul id="SMenu">
+                                <li><a href="sneakers.html" style="
+                                    padding-left: 41px;
+                                    padding-right: 41px;
+                                ">Sneakers</a>
+                                </li>
+                                <li><a href="giayau.html" style="
+                                    padding-left: 44px;
+                                    padding-right: 44px;
+                                ">Giày Âu</a></li>
+                            </ul>
+                        </li>
+                        <li style="width:130px;"><a href="nu.html"
+                                style="padding-left:52px; padding-right: 62px;">NỮ</a>
+                            <ul id="SMenu">
+                                <li><a href="caogot.html">Giày cao gót</a></li>
+                                <li><a href="bupbe.html">Giày giúp bê</a></li>
+                                <li><a href="sneakers.html" style="
+                                    padding-left: 40px;
+                                    padding-right: 40px;
+                                ">Sneakers</a></li>
+                            </ul>
+
+                        </li>
+                        <li style="width:140px;">
+                            <a href="phukien.html"
+                                style="padding-left:31px; padding-right: 31px; text-align: center;">PHỤ KIỆN</a>
+                            <ul id="SMenu">
+                                <li><a href="vo.html" style="
+                                    padding-left: 49px;
+                                    padding-right: 49px;
+                                ">Vớ/Tất</a></li>
+                                <li><a href="balo.html" style="
+                                    padding-left: 55px;
+                                    padding-right: 57px;
+                                ">Balo</a></li>
+                                <li><a href="mu.html" style="
+                                    padding-left: 41px;
+                                    padding-right: 41px;
+                                ">Mũ / Nón</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="tintuc.html">TIN TỨC</a></li>
+                        <li><a href="lienhe.html">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+
+            </head>
+            <div class="title_back">
+                <div class="item_back">
+                    <p align="center" style="font-weight: 600; color: white; font-weight: 700; font-size: 30px;">ĐĂNG
+                        NHẬP
+                    </p>
+                    <br>
+                    <div class="home_lienhe" style="display:flex; flex-direction: row;">
+                        <p style="font-weight: 400;"><a href="index.html">TRANG CHỦ</a></p>
+                        <p style="color:rgba(244, 244, 244, 0.251) ;">/</p>
+                        <p style="font-weight: 600;"><a href="lienhe.html">LIÊN HỆ</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="body">
+                <div class="from_input">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="" width="360px" style="margin-bottom:30px ;">
+                    </div>
+                    <input type="text" name="" id="" placeholder="Tên đăng nhập...">
+                    <input type="text" name="" id="" placeholder="Mật khẩu">
+                    <div class="text" style="flex-direction:row; display:flex; justify-content: space-between; margin-left: 10px; margin-right: 10px; margin-bottom: 5px;">
+                        <p><a href="forgot.html">Quên mật khẩu</a></p>
+                        <p><a href="register.html">Đăng ký</a></p>
+                    </div>
+                    <button>ĐĂNG NHẬP</button>
+                </div>
+                <style>
+                    .from_input .text p a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                    .from_input .text p a:hover{
+                        color: #fc4f0f;
+                    }
+                    .from_input {
+                        display: flex;
+                        flex-direction: column;
+                 
+                        position: relative;
+                        
+                    }
+
+                    .from_input input {
+                        margin-bottom: 5px;
+                        width: 350px;
+                        height: 40px;
+                    }
+                    .from_input button{
+                        width: 357px;
+                        left: 1px;
+                    }
+                    .from_input button:hover{
+                        border-radius: 10px;
+                        font-size: 16px;
+                        transition: 0.55s;
+                    }
+                    .from_input input:focus{
+                        border-radius: 10px;
+                        font-size: 16px;
+                        transition: 0.55s;
+                    }
+                </style>
+
+            </div>
+            <footer>
+                <div class="foot_item">
+                    <div class="item_x4">
+                        <div class="item">
+                            <p style="padding-bottom:30px;">GIỚI THIỆU</p>
+                            <hr style="max-width:80px; border: #fc4f0f solid;">
+                            <br>
+                            <div class="content">
+                                <p>Chào mừng bạn đến với LONGSTORE !!! Cửa hàng chúng tôi bán giày và phụ kiện thể thao.
+                                    Nơi đây sẽ cho bạn
+                                    cảm hứng và phong cách hiện đại, trẻ trung, năng động & lịch lãm
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <p style="padding-bottom:30px;">ĐỊA CHỈ</p>
+                            <hr style="max-width:80px; border: #fc4f0f solid;">
+                            <br>
+                            <div class="Address">
+                                <div class="item_address"
+                                    style="flex-direction:row; display: flex; align-items: center; padding-bottom: 10px;">
+                                    <img src="img/location.png" alt="" width="30">
+                                    <p style="font-size: 16px; padding-left: 10px; color: #6a6a6a;">Trảng dài, biên hoà,
+                                        đồng nai</p>
+                                </div>
+                                <div class="item_address"
+                                    style="flex-direction:row; display: flex; align-items: center; padding-bottom: 10px;">
+                                    <img src="img/mail.png" alt="" width="30">
+                                    <p style="font-size: 16px; padding-left: 10px; color: #6a6a6a;">
+                                        Long.lequang308@gmail.com</p>
+                                </div>
+                                <div class="item_address"
+                                    style="flex-direction:row; display: flex; align-items: center; padding-bottom: 10px;">
+                                    <img src="img/phone.png" alt="" width="30">
+                                    <p style="font-size: 16px; padding-left: 10px; color: #6a6a6a;">096 9875 278</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p style="padding-bottom:30px;">MENU</p>
+                            <hr style="max-width:80px; border: #fc4f0f solid;">
+                            <br>
+                            <div class="content">
+
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p style="padding-bottom:30px;">LIÊN HỆ</p>
+                            <hr style="max-width:80px; border: #fc4f0f solid;">
+                            <br>
+                            <div class="content">
+                                <div class="item_address"
+                                    style="flex-direction:row; display: flex; align-items: center; padding-bottom: 10px;">
+                                    <a href="https://www.facebook.com/Long.lequang308/"> <img src="img/fb.png" alt=""
+                                            width="30"></a>
+                                    <a href="https://www.facebook.com/Long.lequang308/" style="text-decoration: none;">
+                                        <p style="font-size: 16px; padding-left: 10px; color: #6a6a6a;">Quang Long</p>
+                                    </a>
+                                </div>
+                                <div class="item_address"
+                                    style="flex-direction:row; display: flex; align-items: center; padding-bottom: 10px;">
+                                    <a href=""><img src="img/ins.png" alt="" width="30"></a>
+                                    <p style="font-size: 16px; padding-left: 10px; color: #6a6a6a;">Lê Quang Long</p>
+                                </div>
+                                <div class="item_address"
+                                    style="flex-direction:row; display: flex; align-items: center; padding-bottom: 10px;">
+                                    <a href=""><img src="img/pin.png" alt="" width="30"></a>
+                                    <p style="font-size: 16px; padding-left: 10px; color: #6a6a6a;">Quang Long</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item_row">
+
+                    </div>
+                </div>
+                <hr style="max-width:100%;border: #8d8d8d solid 0.5px;">
+
+                <div class="register_visa" style="margin-top:50px;">
+                    <p>ĐĂNG KÝ NHẬN ƯU ĐÃI</p>
+                    <div class="search" style="margin-right:250px ;">
+                        <input type="text" id="TextSearch" placeholder="Email đăng ký..." style=" border: none; border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px; height: 37px;">
+                        <button style="
+                        background-color: #fc4f0f;
+                        border: none; 
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        color: white;
+                        font-weight: 600;
+                        ">ĐĂNG KÝ</button>
+                    </div>
+                    <div class="img" style="line-height: 80px; margin-top: 15px; margin-left: 20px;">
+                        <img src="img/veri.png" alt="" width="50px" style="padding-right:7px ;">
+                        <img src="img/visa.png" alt="" width="50px" style="padding-right:7px ;">
+                        <img src="img/card.png" alt="" width="50px" style="padding-right:7px ;">
+                        <img src="img/pay.png" alt="" width="50px" style="padding-right:7px ;">
+                    </div>
+
+
+
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
